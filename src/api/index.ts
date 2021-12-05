@@ -4,7 +4,7 @@ const fetchImages = async () => {
   const requestHeaders: Headers = new Headers();
   requestHeaders.set(
     'Authorization',
-    `563492ad6f91700001000001112fb002fcaf4ad393e41ffb679ea983`,
+    `KEY`,
   );
 
   const response = await fetch(URL, {
